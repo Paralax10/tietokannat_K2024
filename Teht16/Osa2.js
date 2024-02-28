@@ -19,7 +19,7 @@ function onPalindromi(sana){
 }
 
 ry.question('Anna sana: ',(sana) => {
-    if(onPalindromi(sana)) {
+    if(onPalindromi(sana)) { 
         console.log(`${sana} on palindromi`);
     }
     else{
